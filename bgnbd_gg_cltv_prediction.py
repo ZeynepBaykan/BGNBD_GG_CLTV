@@ -88,7 +88,7 @@ replace_with_thresholds(df, "Price")
 df["InvoiceDate"].max()
 #Timestamp('2011-12-09 12:50:00')
 
-#Taking RFM measurment date as 2 days after from latest purchase date
+#Taking measurment date as 2 days after from latest purchase date
 today_date = dt.datetime(2011, 12, 11)
 
 ###############################################################
