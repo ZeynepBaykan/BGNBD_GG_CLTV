@@ -145,10 +145,6 @@ ggf = GammaGammaFitter(penalizer_coef=0.01)
 
 ggf.fit(cltv_df['frequency'], cltv_df['monetary'])
 
-
-#10 highest revenue customers
-cltv_df.head(10)
-
 #Lets make a 6-month CLTV prediction
 cltv = ggf.customer_lifetime_value(bgf,
                                    cltv_df['frequency'],
